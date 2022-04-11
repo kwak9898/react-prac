@@ -1,13 +1,8 @@
 import React from "react";
-import Hello from "./Hello";
+import Counter from "./Counter";
 
 const App = () => {
-  return (
-    <>
-      <Hello name="react" color="red" />
-      <Hello color="pink" />
-    </>
-  );
+  return <Counter />;
 };
 
 export default App;
