@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import UserList from "./UserList";
 import CreateUser from "./CreateUser";
 
-function App() {
+const App = () => {
   const [inputs, setInputs] = useState({
     username: "",
     email: "",
@@ -75,6 +75,6 @@ function App() {
       <UserList users={users} onRemove={onRemove} onToggle={onToggle} />
     </>
   );
-}
+};
 
 export default App;
